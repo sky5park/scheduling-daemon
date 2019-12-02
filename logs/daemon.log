@@ -1,0 +1,14 @@
+[2019-12-02 10:00:29] [INFO] [0] [com.scheduling.daemon.extension.DaemonMainApp] [printEnvironment] [139]  D:\AlgWK\scheduling-daemon\target 
+[2019-12-02 10:00:29] [INFO] [3] [com.scheduling.daemon.extension.DaemonMainApp] [printEnvironment] [140]  D:\AlgWK\scheduling-daemon\target 
+[2019-12-02 10:00:29] [INFO] [3] [com.scheduling.daemon.extension.DaemonMainApp] [printEnvironment] [141]  D:\AlgWK\scheduling-daemon\conf\ 
+[2019-12-02 10:00:29] [INFO] [3] [com.scheduling.daemon.extension.DaemonMainApp] [printEnvironment] [142]  D:\AlgWK\scheduling-daemon\logs\ 
+[2019-12-02 10:00:29] [INFO] [4] [com.scheduling.daemon.extension.DaemonMainApp] [printEnvironment] [143]  daemon 
+[2019-12-02 10:00:29] [INFO] [4] [com.scheduling.daemon.extension.DaemonMainApp] [writeProcessId] [68]  D:\AlgWK\scheduling-daemon\target\DaemonMainApp.pid 
+[2019-12-02 10:00:29] [INFO] [33] [com.scheduling.daemon.extension.DaemonMainApp] [writeProcessId] [72]  Process id => 66824 
+[2019-12-02 10:00:29] [INFO] [84] [com.scheduling.daemon.extension.DaemonMainApp] [lambda$createScheduleServer$2] [109]  Key : period -> Value : 60 
+[2019-12-02 10:00:29] [INFO] [84] [com.scheduling.daemon.extension.DaemonMainApp] [lambda$createScheduleServer$2] [109]  Key : delay -> Value : 0 
+[2019-12-02 10:00:29] [INFO] [85] [com.scheduling.daemon.extension.DaemonMainApp] [lambda$createScheduleServer$2] [109]  Key : x-authenticate-client-secret -> Value : qwer!234 
+[2019-12-02 10:00:29] [INFO] [85] [com.scheduling.daemon.extension.DaemonMainApp] [lambda$createScheduleServer$2] [109]  Key : api_url -> Value : https://hifi.ehyundai.com/api/IA/ICFRSetTestEnvironmentTTSService/isttts00700_scheduling 
+[2019-12-02 10:00:29] [INFO] [85] [com.scheduling.daemon.extension.DaemonMainApp] [lambda$createScheduleServer$2] [109]  Key : x-authenticate-client-id -> Value : EAI_APP 
+[2019-12-02 10:00:31] [ERROR] [1870] [com.scheduling.daemon.extension.http.HttpUtil] [doGet] [58]  javax.net.ssl.SSLHandshakeException: Remote host closed connection during handshake 
+[2019-12-02 10:00:31] [ERROR] [1871] [com.scheduling.daemon.extension.task.impl.HttpRequestJobTask] [run] [41]  javax.net.ssl.SSLHandshakeException: Remote host closed connection during handshake 
